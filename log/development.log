@@ -1555,3 +1555,6 @@ Processing by PostsController#index as HTML
   [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."author_id" = 13[0m
   [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
   Rendered posts/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.5ms)
+
+
